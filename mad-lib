@@ -1,0 +1,13 @@
+print("welcome to mad-lib")
+print("please answer the following questions")
+
+adjective1 = input("enter and adjective >>>")
+name1 = input("enter a name >>>")
+noun1= input("enter a noun e.g person/place/thing >>>")
+adjective2 =  input("enter a adjective >>>")
+
+
+print("here is ur mad-lib")
+print("during the early morning a",adjective1, "man named" ,name1, "walked along the forest")
+print("he stumbled across a" ,noun1, "and decided to pick it up and observe it")
+print("he thought that it looked very" ,adjective2)
