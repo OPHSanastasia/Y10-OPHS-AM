@@ -7,4 +7,5 @@ if fav_col == "Red":
 if fav_col == "RED":
   print("i like red too")
 if fav_col != "red":
-  print("i dont like ,fav_col,,fav_col, is for losers")
+  print("i dont like",fav_col,fav_col,"is for losers")
+
