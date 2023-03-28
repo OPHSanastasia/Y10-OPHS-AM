@@ -1,0 +1,12 @@
+weather1=input("is it raining? >>>").lower()
+print(weather1)
+
+if weather1 == "yes":
+  weather2=input("is it windy? >>>").lower()
+print(weather2)
+
+if weather2 == "yes":
+  print("it is too windy for an umbrella")
+
+else:
+  print("take an umbrella")
