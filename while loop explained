@@ -1,0 +1,4 @@
+Number=0
+while Number != 8:
+  Number = Number + 1
+  print("the number is", Number)
