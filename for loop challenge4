@@ -1,0 +1,4 @@
+num = int(input("enter a number from 1-12"))
+for x in range(0,12):
+  timestable = x * num
+  print(timestable)
