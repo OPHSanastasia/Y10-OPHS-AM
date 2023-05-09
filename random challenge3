@@ -1,0 +1,10 @@
+import random
+list = ("heads","tails")
+coin = random.choice(list)
+
+ask = str(input("choose heads or tails"))
+
+if ask == coin:
+  print("you win")
+if ask != coin:
+  print("bad luck, it was ",coin)
