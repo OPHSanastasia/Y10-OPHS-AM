@@ -1,0 +1,20 @@
+import random
+num = random.randint(1,5)
+ask= int(input("pick a number between 1 and 5"))
+if ask == num:
+  print("well done")
+if ask < num:
+  print("your number is too low")
+  ask= int(input("pick a number between 1 and 5"))
+  if ask == num:
+    print("correct")
+  else:
+    print("you lose")
+
+if ask > num:
+  print("your number is too high")
+  ask= int(input("pick a number between 1 and 5"))
+  if ask == num:
+    print("correct")
+  else:
+    print("you lose")
