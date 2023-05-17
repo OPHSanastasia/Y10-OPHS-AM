@@ -1,0 +1,8 @@
+cars = []
+loop = True
+while loop == True:
+  ask = str(input("enter a car brand or press x to exit"))
+  if ask == "x":
+    print("exiting...")
+  else:
+    ask = str(input("enter a car brand or press x to exit"))
