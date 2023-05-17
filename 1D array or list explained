@@ -1,0 +1,18 @@
+#1D array or Lisys explained
+#Below is a list
+
+UK = ["england", "ireland", "wales", "scotland"]
+print(UK) #prints whole list
+print(UK[0]) #Indexing
+print(UK[1]) #displays different index
+print(UK[1:2]) #displays specific Index
+
+#Appending to a list
+
+x = "abc" #new item
+UK.append(x) #append new item to list
+print(UK) #print list
+
+z = str(input("enter country:"))
+UK.append(z)
+print(UK)
