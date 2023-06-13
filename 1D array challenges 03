@@ -1,0 +1,10 @@
+people = []
+x = str(input("enter names of three people"))
+people.append(x)
+ask = str(input("would you like to add another person?"))
+while ask == "yes":
+  x = str(input("enter another name"))
+  ask = str(input("would you like to add another person?"))
+  people.append(x)
+if ask == "no":
+  print("you have invited", people,)
