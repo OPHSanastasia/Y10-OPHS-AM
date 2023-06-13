@@ -1,10 +1,13 @@
 cars = []
-carbrand= str(input("enter the name of a car brand:"))
-cars.append(carbrand)
-print(cars)
-carbrand2= str(input("enter the name of another car brand:"))
-cars.append(carbrand2)
-print(cars)
-carbrand3= str(input("enter the name of another car brand:"))
-cars.append(carbrand3)
-print(cars)
+loop = True
+while loop == True:
+  ask = str(input("enter a car brand or press x to exit"))
+  if ask != "x":
+    cars.append(ask)
+  if ask == "x":
+    print("exiting...")
+    loop = False
+    print("in the list theres", cars,)
+  else:
+      ask = str(input("enter a car brand or press x to exit"))
+      cars.append(ask)
