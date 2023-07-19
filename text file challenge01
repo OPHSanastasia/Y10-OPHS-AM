@@ -1,0 +1,16 @@
+notepad = open("number.txt", "w")
+
+num1 = "9, "
+num2 = "5, "
+num3 = "14, "
+num4 = "3, "
+num5 = "12, "
+
+
+notepad.write(num1)
+notepad.write(num2)
+notepad.write(num3)
+notepad.write(num4)
+notepad.write(num5)
+
+notepad.close()
